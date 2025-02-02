@@ -3,10 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Ruach Hakodesh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #000;
+            color: #FFD700; /* Gold */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Main Section */
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .scripture {
+            font-size: 22px;
+            font-style: italic;
+            color: #333;
+            margin-top: 20px;
+            animation: moveText 10s linear infinite;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #000;
+            color: #FFD700;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Animation for moving text */
+        @keyframes moveText {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .scripture-container {
+            width: 100%;
+            overflow: hidden;
+            background-color: #f8f8f8;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a sample page hosted on GitHub Pages.</p>
+
+<header>
+    <h1>Ruach Hakodesh</h1>
+</header>
+
+<main>
+    <div class="scripture-container">
+        <p class="scripture">
+            <strong>John 14:26</strong> - "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things..."
+        </p>
+    </div>
+
+    <div class="scripture-container">
+        <p class="scripture">
+            <strong>Romans 8:11</strong> - "And if the Spirit of him who raised Jesus from the dead is living in you, he who raised Christ from the dead will also give life to your mortal bodies because of his Spirit who lives in you."
+        </p>
+    </div>
+
+    <p>
+        Welcome to the Ruach Hakodesh website, a space for spiritual inspiration and truth.
+    </p>
+</main>
+
+<footer>
+    <p>&copy; 2025 Ruach Hakodesh | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
